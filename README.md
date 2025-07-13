@@ -9,7 +9,7 @@ This project demonstrates how to fine-tune a face recognition model to work bett
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/face_recognition_project.git
+git clone https://github.com/joswinshogi/face_recognition.git
 cd face_recognition_project
 
 pip install -r requirements.txt
