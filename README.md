@@ -1,1 +1,53 @@
-# face_recognition_project
+# Fine-Tuning Face Recognition on Low-Quality Images
+
+This project demonstrates how to fine-tune a face recognition model to work better with low-quality images, such as those from CCTV cameras or poor lighting environments. It includes dataset preprocessing, baseline evaluation, contrastive learning-based fine-tuning, post-evaluation, and a real-time face matching demo.
+
+---
+
+## 🚀 How to Run the Project
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/face_recognition_project.git
+cd face_recognition_project
+
+pip install -r requirements.txt
+```
+### 2. Ensure your Dataset Folder structure looks like this:
+```bash
+Images/
+├── person1/
+│   ├── high_quality/
+│   └── low_quality/
+├── person2/
+│   ├── high_quality/
+│   └── low_quality/
+...
+```
+### 3. Run the file preprocessing.py
+```bash
+python src/preprocessing.py
+```
+### 4. Run Baseline Evaluation
+```bash
+python src/baseline_evaluation.py
+```
+### 5.  Fine-Tune the Model:- fine tuned model will be saved to outputs/fine_tuned_model.pt
+```bash
+python src/fine_tuning.py
+```
+### 6. Post-Fine-Tuning Evaluation 
+```bash
+python src/post_evaluation.py
+```
+### 7. Data-set Link
+```bash
+https://drive.google.com/file/d/1Vl1co8juIZkeM6urQV_JKfHRGr4dRu5W/view
+``` 
+
+
+
+
+
+
