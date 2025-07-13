@@ -1,0 +1,10 @@
+insightface==0.7.3
+onnxruntime
+opencv-python
+numpy
+matplotlib
+seaborn
+scikit-learn
+albumentations
+tqdm
+torch
