@@ -6,11 +6,20 @@ This project demonstrates how to fine-tune a face recognition model to work bett
 
 ## 🚀 How to Run the Project
 
+### 💻 Set Up a Virtual Environment (Recommended)
+# Create virtual environment
+```bash
+python -m venv venv
+
+venv\Scripts\activate - windows
+source venv/bin/activate - Mac/Linux
+```
+
 ### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/joswinshogi/face_recognition.git
-cd face_recognition_project
+cd face_recognition
 
 pip install -r requirements.txt
 ```
