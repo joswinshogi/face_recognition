@@ -50,7 +50,24 @@ python src/fine_tuning.py
 ```bash
 python src/post_evaluation.py
 ```
-### 7. Data-set Link
+### 7. Real-Time Face Matching
+```bash
+python src/generate_known_faces.py
+```
+### This creates:
+```bash
+known_faces/
+├── ananthu.jpg
+├── firoz.jpg
+...
+
+```
+### 8. Run Real-Time Matching with Webcam
+```bash
+python realtime_match.py
+
+```
+### 9. Data-set Link
 ```bash
 https://drive.google.com/file/d/1Vl1co8juIZkeM6urQV_JKfHRGr4dRu5W/view
 ``` 
