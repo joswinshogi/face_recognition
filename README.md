@@ -71,7 +71,9 @@ python realtime_match.py
 ```bash
 https://drive.google.com/file/d/1Vl1co8juIZkeM6urQV_JKfHRGr4dRu5W/view
 ```
-### 10. You can use run_model.py to compare and check similarity between 2 images
+### 10. You can use run_model.py to compare and check similarity between 2 images 
+Similarity > 0.85 - Likely to be same person/
+Similarity < 0.50 - may be different person
 ```bash
 python run_model.py
 ```
